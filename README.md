@@ -20,7 +20,7 @@ To deploy this sample Python web application from the OpenShift web console, you
 
 The HTTPS URL of this code repository which should be supplied to the _Git Repository URL_ field when using _Add to project_ is:
 
-* https://github.com/OpenShiftDemos/os-sample-python.git
+* https://github.com/cmdx/os-sample-python.git
 
 If using the ``oc`` command line tool instead of the OpenShift web console, to deploy this sample Python web application, you can run:
 
@@ -33,5 +33,5 @@ In this case, because no language type was specified, OpenShift will determine t
 If needing to select a specific Python version when using ``oc new-app``, you should instead use the form:
 
 ```
-oc new-app python:2.7~https://github.com/OpenShiftDemos/os-sample-python.git
+oc new-app python:2.7~https://github.com/cmdx/os-sample-python.git
 ```
